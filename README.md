@@ -1,2 +1,6 @@
-# primeirog_3t
-maria fernanda n;22
+#terceiro Trimestre
+
+## identificação
+Maria Fernanda - n 22
+
+## conteúdo - HTML - CSS - JavaScript
