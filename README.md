@@ -1,1 +1,0 @@
-# primeirog_3t
