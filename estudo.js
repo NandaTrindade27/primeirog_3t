@@ -6,12 +6,11 @@ function total(){
   let r = 0;
   for(let i = 1; i <= t; i++){
       r = c * (1 + (j/100));
-      document.write("Mês " + i + " valor: " + r +"<br>");
+      //document.write("Mês " + i + " valor: " + r +"<br>");
       c = r;
   }
   document.write("Resultado: " + r);
-}
-
+} 
 
 function adicao(){
 let val1 = document.getElementById("v1").value;
@@ -48,7 +47,7 @@ function subtracao(){
         let r = Number(val1) * Number(p);
         document.getElementById("resultado").innerHTML =r;
         }
-  
+  //document.write("Mês " + i + " valor: " + r +"<br>");
 
 
 
