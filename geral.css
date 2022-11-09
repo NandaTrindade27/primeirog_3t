@@ -4,6 +4,7 @@
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    box-shadow:rgb(128, 18, 54)
 }
 .calc input {
     background: white;
@@ -27,6 +28,15 @@ spTotal {
 }
 .calc buttom:hover {
     background: rgb(110, 34, 60);
-    color: rgb(221, 83, 83);
+    color: rgb(78, 44, 44);
     cursor: pointer ;
+}
+.calcF {
+    display: none;
+}
+#input-calcFin {
+    display: none;
+}
+#input-calcFin:checked + .calc .calcF {
+    display: block;
 }
