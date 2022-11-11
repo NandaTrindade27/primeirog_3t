@@ -36,3 +36,20 @@ if (!Number(c)){
   document.getElementById("total").innerHTML = moeda(m);
   //document.write("Montante: " + m)
 }
+function calculaRaiz(){}
+  let c = document.getElementById("a").value;
+  let j = document.getElementById("b").value;
+  let t = document.getElementById("c").value;
+  let delta = (b*b) - (4*c);
+  let raiz, x1, x2;
+
+  if(delta >=0){
+    raiz = Math.sqrt(delta);
+    x1 =((-b)-raiz)//(2*a);
+    x2 =((-b)-raiz)//(2*a);
+    raiz = "x2'="+1+" x2"+x2;
+
+  }else{
+
+}
+document.getElementById("raiz").innerHTML = raiz;
